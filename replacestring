@@ -1,0 +1,10 @@
+
+var find = '$';
+var str = new RegExp(find, '$');
+
+str = str.replace(re, '');
+
+
+function replaceAll(str, find, replace) {
+    return str.replace(new RegExp(find, '$'), replace);
+}
